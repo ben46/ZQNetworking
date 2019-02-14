@@ -1,0 +1,578 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		8C0FC78E2214E916004CE379 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 8C0FC78D2214E916004CE379 /* AppDelegate.m */; };
+		8C0FC7912214E916004CE379 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 8C0FC7902214E916004CE379 /* ViewController.m */; };
+		8C0FC7942214E916004CE379 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8C0FC7922214E916004CE379 /* Main.storyboard */; };
+		8C0FC7962214E918004CE379 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 8C0FC7952214E918004CE379 /* Assets.xcassets */; };
+		8C0FC7992214E918004CE379 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8C0FC7972214E918004CE379 /* LaunchScreen.storyboard */; };
+		8C0FC79C2214E918004CE379 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 8C0FC79B2214E918004CE379 /* main.m */; };
+		8C0FC7A62214E918004CE379 /* ZQNetworkingTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 8C0FC7A52214E918004CE379 /* ZQNetworkingTests.m */; };
+		8C0FC7B12214E918004CE379 /* ZQNetworkingUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 8C0FC7B02214E918004CE379 /* ZQNetworkingUITests.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		8C0FC7A22214E918004CE379 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 8C0FC7812214E916004CE379 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 8C0FC7882214E916004CE379;
+			remoteInfo = ZQNetworking;
+		};
+		8C0FC7AD2214E918004CE379 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 8C0FC7812214E916004CE379 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 8C0FC7882214E916004CE379;
+			remoteInfo = ZQNetworking;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		8C0FC7892214E916004CE379 /* ZQNetworking.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ZQNetworking.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		8C0FC78C2214E916004CE379 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		8C0FC78D2214E916004CE379 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		8C0FC78F2214E916004CE379 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		8C0FC7902214E916004CE379 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		8C0FC7932214E916004CE379 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		8C0FC7952214E918004CE379 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		8C0FC7982214E918004CE379 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		8C0FC79A2214E918004CE379 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		8C0FC79B2214E918004CE379 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		8C0FC7A12214E918004CE379 /* ZQNetworkingTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ZQNetworkingTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		8C0FC7A52214E918004CE379 /* ZQNetworkingTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ZQNetworkingTests.m; sourceTree = "<group>"; };
+		8C0FC7A72214E918004CE379 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		8C0FC7AC2214E918004CE379 /* ZQNetworkingUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ZQNetworkingUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		8C0FC7B02214E918004CE379 /* ZQNetworkingUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ZQNetworkingUITests.m; sourceTree = "<group>"; };
+		8C0FC7B22214E918004CE379 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		8C0FC7862214E916004CE379 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8C0FC79E2214E918004CE379 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8C0FC7A92214E918004CE379 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		8C0FC7802214E916004CE379 = {
+			isa = PBXGroup;
+			children = (
+				8C0FC78B2214E916004CE379 /* ZQNetworking */,
+				8C0FC7A42214E918004CE379 /* ZQNetworkingTests */,
+				8C0FC7AF2214E918004CE379 /* ZQNetworkingUITests */,
+				8C0FC78A2214E916004CE379 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		8C0FC78A2214E916004CE379 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				8C0FC7892214E916004CE379 /* ZQNetworking.app */,
+				8C0FC7A12214E918004CE379 /* ZQNetworkingTests.xctest */,
+				8C0FC7AC2214E918004CE379 /* ZQNetworkingUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		8C0FC78B2214E916004CE379 /* ZQNetworking */ = {
+			isa = PBXGroup;
+			children = (
+				8C0FC78C2214E916004CE379 /* AppDelegate.h */,
+				8C0FC78D2214E916004CE379 /* AppDelegate.m */,
+				8C0FC78F2214E916004CE379 /* ViewController.h */,
+				8C0FC7902214E916004CE379 /* ViewController.m */,
+				8C0FC7922214E916004CE379 /* Main.storyboard */,
+				8C0FC7952214E918004CE379 /* Assets.xcassets */,
+				8C0FC7972214E918004CE379 /* LaunchScreen.storyboard */,
+				8C0FC79A2214E918004CE379 /* Info.plist */,
+				8C0FC79B2214E918004CE379 /* main.m */,
+			);
+			path = ZQNetworking;
+			sourceTree = "<group>";
+		};
+		8C0FC7A42214E918004CE379 /* ZQNetworkingTests */ = {
+			isa = PBXGroup;
+			children = (
+				8C0FC7A52214E918004CE379 /* ZQNetworkingTests.m */,
+				8C0FC7A72214E918004CE379 /* Info.plist */,
+			);
+			path = ZQNetworkingTests;
+			sourceTree = "<group>";
+		};
+		8C0FC7AF2214E918004CE379 /* ZQNetworkingUITests */ = {
+			isa = PBXGroup;
+			children = (
+				8C0FC7B02214E918004CE379 /* ZQNetworkingUITests.m */,
+				8C0FC7B22214E918004CE379 /* Info.plist */,
+			);
+			path = ZQNetworkingUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		8C0FC7882214E916004CE379 /* ZQNetworking */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 8C0FC7B52214E918004CE379 /* Build configuration list for PBXNativeTarget "ZQNetworking" */;
+			buildPhases = (
+				8C0FC7852214E916004CE379 /* Sources */,
+				8C0FC7862214E916004CE379 /* Frameworks */,
+				8C0FC7872214E916004CE379 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = ZQNetworking;
+			productName = ZQNetworking;
+			productReference = 8C0FC7892214E916004CE379 /* ZQNetworking.app */;
+			productType = "com.apple.product-type.application";
+		};
+		8C0FC7A02214E918004CE379 /* ZQNetworkingTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 8C0FC7B82214E918004CE379 /* Build configuration list for PBXNativeTarget "ZQNetworkingTests" */;
+			buildPhases = (
+				8C0FC79D2214E918004CE379 /* Sources */,
+				8C0FC79E2214E918004CE379 /* Frameworks */,
+				8C0FC79F2214E918004CE379 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				8C0FC7A32214E918004CE379 /* PBXTargetDependency */,
+			);
+			name = ZQNetworkingTests;
+			productName = ZQNetworkingTests;
+			productReference = 8C0FC7A12214E918004CE379 /* ZQNetworkingTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		8C0FC7AB2214E918004CE379 /* ZQNetworkingUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 8C0FC7BB2214E918004CE379 /* Build configuration list for PBXNativeTarget "ZQNetworkingUITests" */;
+			buildPhases = (
+				8C0FC7A82214E918004CE379 /* Sources */,
+				8C0FC7A92214E918004CE379 /* Frameworks */,
+				8C0FC7AA2214E918004CE379 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				8C0FC7AE2214E918004CE379 /* PBXTargetDependency */,
+			);
+			name = ZQNetworkingUITests;
+			productName = ZQNetworkingUITests;
+			productReference = 8C0FC7AC2214E918004CE379 /* ZQNetworkingUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		8C0FC7812214E916004CE379 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 1010;
+				ORGANIZATIONNAME = "nobby heell";
+				TargetAttributes = {
+					8C0FC7882214E916004CE379 = {
+						CreatedOnToolsVersion = 10.1;
+					};
+					8C0FC7A02214E918004CE379 = {
+						CreatedOnToolsVersion = 10.1;
+						TestTargetID = 8C0FC7882214E916004CE379;
+					};
+					8C0FC7AB2214E918004CE379 = {
+						CreatedOnToolsVersion = 10.1;
+						TestTargetID = 8C0FC7882214E916004CE379;
+					};
+				};
+			};
+			buildConfigurationList = 8C0FC7842214E916004CE379 /* Build configuration list for PBXProject "ZQNetworking" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 8C0FC7802214E916004CE379;
+			productRefGroup = 8C0FC78A2214E916004CE379 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				8C0FC7882214E916004CE379 /* ZQNetworking */,
+				8C0FC7A02214E918004CE379 /* ZQNetworkingTests */,
+				8C0FC7AB2214E918004CE379 /* ZQNetworkingUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		8C0FC7872214E916004CE379 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8C0FC7992214E918004CE379 /* LaunchScreen.storyboard in Resources */,
+				8C0FC7962214E918004CE379 /* Assets.xcassets in Resources */,
+				8C0FC7942214E916004CE379 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8C0FC79F2214E918004CE379 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8C0FC7AA2214E918004CE379 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		8C0FC7852214E916004CE379 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8C0FC7912214E916004CE379 /* ViewController.m in Sources */,
+				8C0FC79C2214E918004CE379 /* main.m in Sources */,
+				8C0FC78E2214E916004CE379 /* AppDelegate.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8C0FC79D2214E918004CE379 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8C0FC7A62214E918004CE379 /* ZQNetworkingTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8C0FC7A82214E918004CE379 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8C0FC7B12214E918004CE379 /* ZQNetworkingUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		8C0FC7A32214E918004CE379 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 8C0FC7882214E916004CE379 /* ZQNetworking */;
+			targetProxy = 8C0FC7A22214E918004CE379 /* PBXContainerItemProxy */;
+		};
+		8C0FC7AE2214E918004CE379 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 8C0FC7882214E916004CE379 /* ZQNetworking */;
+			targetProxy = 8C0FC7AD2214E918004CE379 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		8C0FC7922214E916004CE379 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				8C0FC7932214E916004CE379 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		8C0FC7972214E918004CE379 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				8C0FC7982214E918004CE379 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		8C0FC7B32214E918004CE379 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.1;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		8C0FC7B42214E918004CE379 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		8C0FC7B62214E918004CE379 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = ZQNetworking/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.tuobian.cn.ZQNetworking;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		8C0FC7B72214E918004CE379 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = ZQNetworking/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.tuobian.cn.ZQNetworking;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		8C0FC7B92214E918004CE379 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = ZQNetworkingTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.tuobian.cn.ZQNetworkingTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/ZQNetworking.app/ZQNetworking";
+			};
+			name = Debug;
+		};
+		8C0FC7BA2214E918004CE379 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = ZQNetworkingTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.tuobian.cn.ZQNetworkingTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/ZQNetworking.app/ZQNetworking";
+			};
+			name = Release;
+		};
+		8C0FC7BC2214E918004CE379 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = ZQNetworkingUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.tuobian.cn.ZQNetworkingUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = ZQNetworking;
+			};
+			name = Debug;
+		};
+		8C0FC7BD2214E918004CE379 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = ZQNetworkingUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.tuobian.cn.ZQNetworkingUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = ZQNetworking;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		8C0FC7842214E916004CE379 /* Build configuration list for PBXProject "ZQNetworking" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8C0FC7B32214E918004CE379 /* Debug */,
+				8C0FC7B42214E918004CE379 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		8C0FC7B52214E918004CE379 /* Build configuration list for PBXNativeTarget "ZQNetworking" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8C0FC7B62214E918004CE379 /* Debug */,
+				8C0FC7B72214E918004CE379 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		8C0FC7B82214E918004CE379 /* Build configuration list for PBXNativeTarget "ZQNetworkingTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8C0FC7B92214E918004CE379 /* Debug */,
+				8C0FC7BA2214E918004CE379 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		8C0FC7BB2214E918004CE379 /* Build configuration list for PBXNativeTarget "ZQNetworkingUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8C0FC7BC2214E918004CE379 /* Debug */,
+				8C0FC7BD2214E918004CE379 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 8C0FC7812214E916004CE379 /* Project object */;
+}
